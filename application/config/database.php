@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => './application/database/dlsp-cms.db',
-	'dbdriver' => 'sqlite3',
+	'hostname' => 'remotemysql.com',
+	'username' => 'eBy9Nl6SRa',
+	'password' => 'IiTbAyjD2S',
+	'database' => 'eBy9Nl6SRa',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
